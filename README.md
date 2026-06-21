@@ -17,7 +17,7 @@ The session ends when the user enters `exit` or `quit`, after which a summary of
 - Input validation and basic error handling
 
 
-# etup Instructions
+# Setup Instructions
 
 ### 1. Clone the repository
 
@@ -47,10 +47,10 @@ python study_assistant.py
 
 # A couple of FAQs
 1.  What role did you assign in your system prompt, and why did you choose that framing?
+
 I assigned the role of an experienced tutor to the AI agent. This framing helps the model to actually teach the user instead of just giving short answers and helps in maintaining a consistent style of answers.
 
-2. What format did you specify for the study plan output, and how did you enforce it in the prompt?
-### 2. What format did you specify for the study plan output, and how did you enforce it in the prompt?
+3. What format did you specify for the study plan output, and how did you enforce it in the prompt?
 
 I instructed the model to generate numbered topics followed by lettered subtopics. I also specified that each topic and subtopic should include a short description which should remain under 25 words. These formatting requirements were explicitly written in the system prompt along with an example structure to enforce them.
 
